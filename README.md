@@ -1,14 +1,14 @@
-# hyperledger-simple-app
+# fabric-tea
 
 [![Build Status](https://travis-ci.org/zhazhalaila/hyperledger-simple-app.svg?branch=master)](https://travis-ci.org/zhazhalaila/hyperledger-simple-app) ![](https://img.shields.io/badge/language-javascript-blue.svg)
 
-基于Hyperledger Fabric的一个极简App
+基于Hyperledger Fabric
 
 [English Docment](https://github.com/zhazhalaila/hyperledger-simple-app/blob/master/EN_DOC.md)
 
 chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 
-在此之前请确保已安装Hyperledger Fabric（本项目基于Hyperledger Fabric v1.1)
+在此之前请确保已安装Hyperledger Fabric（本项目基于Hyperledger Fabric v1.0)
 
 库版本:
 
