@@ -24,15 +24,17 @@ chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 
 Step 1:
   ```shell
-  git clone https://github.com/zhazhalaila/hyperledger-simple-app.git
+  git clone git://github.com/KissFire-MT/fabric-tea.git
   ```
  
 进入source-app目录下
+cd hyperledger-simple-app/source-app
   
 Step 2:
   ```js
   npm install
-  //安装时速度可能会很慢，静等即可
+  //安装时速度经常自杀，建议使用cnpm
+  cnpm install
   ```
   
 Step 3:
