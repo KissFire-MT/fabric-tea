@@ -4,7 +4,7 @@
 
 基于Hyperledger Fabric
 
-[English Docment](https://github.com/zhazhalaila/hyperledger-simple-app/blob/master/EN_DOC.md)
+
 
 chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 
