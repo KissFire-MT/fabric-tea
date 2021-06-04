@@ -28,7 +28,7 @@ Step 1:
   ```
  
 进入source-app目录下
-cd hyperledger-simple-app/source-app
+cd fabric-tea/source-app
   
 Step 2:
   ```js
