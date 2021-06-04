@@ -9,20 +9,20 @@
 	</head>
 	<body ng-app="application" ng-controller="appController">
 		<div class="form-wrapper">
-			<input type="text" id="search" placeholder="食品编号..." ng-model="query_id" required>
+			<input type="text" id="search" placeholder="茶叶编号..." ng-model="query_id" required>
 			<input type="submit" value="搜索" id="submit" ng-click="querySource()">
 		</div>
 		<table cellspacing="0" id="query_source">
 			<tr>
-				<th>食品名称</th>
-				<th>食品规格</th>
-				<th>食品生产日期</th>
-				<th>食品保质期</th>
-				<th>食品批次号</th>
-				<th>食品生产许可证编号</th>
-				<th>食品生产商名称</th>
-				<th>食品生产价格</th>
-				<th>食品生产所在地</th>
+				<th>茶叶名称</th>
+				<th>茶叶规格</th>
+				<th>茶叶生产日期</th>
+				<th>茶叶保质期</th>
+				<th>茶叶批次号</th>
+				<th>茶叶生产许可证编号</th>
+				<th>茶叶生产商名称</th>
+				<th>茶叶生产价格</th>
+				<th>茶叶生产所在地</th>
 			</tr>
 			<tr>
           			<td>{{query_source.FoodName}}</td>
