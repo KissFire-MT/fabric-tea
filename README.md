@@ -5,7 +5,8 @@
 基于Hyperledger Fabric
 
 
-本项目实现茶叶溯源
+本项目实现茶叶生产、加工、运输全流程溯源
+
 chaincode 由@[DevilExileSu](https://github.com/DevilExileSu)所编写
 
 在此之前请确保已安装Hyperledger Fabric（本项目基于Hyperledger Fabric v1.0)
