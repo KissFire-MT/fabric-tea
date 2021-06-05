@@ -46,6 +46,9 @@ Step 3:
 
  Step 4:
    ```
+   在 fabcar/registerUser.js 文件修改第56行：
+   return fabric_ca_client.register({enrollmentID: 'user1', affiliation: 'org1.department1',role: 'client'}, admin_user);
+
    node registerAdmin.js
    node registerUser.js
    node server.js
@@ -61,7 +64,7 @@ Step 3:
 
 <h4>url & json 格式</h4>
 
-获取食品信息
+获取茶叶信息
 
 `http://localhost:8000/source/:id`
 
@@ -69,7 +72,7 @@ Step 3:
 {"FoodName":"Apple","FoodSpec":"123456","FoodMFGDate":"2018-8-24","FoodEXPDate":"10day","FoodLOT":"123","FoodQSID":"456","FoodMFRSName":"lalala","FoodProPrice":"2","FoodProPlace":"zhengzhou"}
 ```
 
-获取食品配料信息
+获取茶叶配料信息
 
 `http://localhost:8000/part/:id`
 
@@ -77,7 +80,7 @@ Step 3:
  [{"IngID":"1","IngName":"a"},{"IngID":"2","IngName":"b"},{"IngID":"3","IngName":"c"},{"IngID":"4","IngName":"d"},{"IngID":"5","IngName":"e"}]
  ```
  
- 获取交易（运输）信息
+ 获取茶叶（运输）信息
  
  `http://localhost:8000/transit/:id`
  
