@@ -43,6 +43,8 @@ Step 3:
   ./startFabric.sh
   若遇到权限问题执行chmod a+x startFabric.sh
   若仍有问题进入basic-network文件夹下执行 chmod a+x start.sh
+  解决ERROR: network net_basic has active endpoints
+  service docker restart
   ```
 
  Step 4:
